@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE jboss PUBLIC
+      "-//JBoss//DTD JBOSS 6.0//EN"
+      "http://www.jboss.org/j2ee/dtd/jboss_6_0.dtd">
+<jboss>
+    <enterprise-beans>
+        <session>
+            <ejb-name>AccountSessionBean</ejb-name>
+            <jndi-name>AccJNDI</jndi-name>
+            <local-jndi-name>AccLocalJNDI</local-jndi-name>
+        </session>
+        <session>
+            <ejb-name>ProductSessionBean</ejb-name>
+            <jndi-name>ProJNDI</jndi-name>
+            <local-jndi-name>ProLocalJNDI</local-jndi-name>
+        </session>
+        <session>
+            <ejb-name>ImportSessionBean</ejb-name>
+            <jndi-name>ImpJNDI</jndi-name>
+            <local-jndi-name>ImpLocalJNDI</local-jndi-name>
+        </session>
+    </enterprise-beans>
+</jboss>
